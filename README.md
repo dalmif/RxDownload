@@ -75,7 +75,7 @@ RxDownload.create(mission,autoStart)
        }
 ```
 - Can Handle onComplete & onError & onSubscribe like below.
-```
+```kotlin
 RxDownload.create(mission,autoStart)
        .subscribe { status ->
           when (status) {
